@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Hangman</title>
+		<link rel="stylesheet" href="./css/style.css" />
+	</head>
+	<body>
+		<main id="main-container">
+			<h1>Hangman</h1>
+			<p class="message">Lets Go</p>
+			<div class="character">
+				<div class="head man">0</div>
+				<div class="left-arm man">/</div>
+				<div class="body man">|</div>
+				<div class="right-arm man">\</div>
+				<div class="left-leg man">/</div>
+				<div class="right-leg man">\</div>
+			</div>
+			<div class="game">
+				<div class="guess">
+					<input class="guesses" class="word" id="output" />
+				</div>
+				<input type="text" class="display" />
+				<button id="play" class="play-btn">Enter</button>
+			</div>
+		</main>
+		<div class="modal-window loose">
+			<p>You Loose</p>
+			<button class="play-again play-again-lose">Play Again</button>
+		</div>
+		<div class="modal-window win">
+			<p>You Win</p>
+			<button class="play-again play-again-win">Play Again</button>
+		</div>
+		<script src="./js/app.js"></script>
+	</body>
+</html>

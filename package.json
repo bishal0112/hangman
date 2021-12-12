@@ -1,0 +1,23 @@
+{
+  "name": "hangman",
+  "version": "1.0.0",
+  "description": "game",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^17.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bishal0112/hangman.git"
+  },
+  "author": "bishal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bishal0112/hangman/issues"
+  },
+  "homepage": "https://github.com/bishal0112/hangman#readme"
+}
